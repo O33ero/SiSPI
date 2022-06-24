@@ -20,4 +20,6 @@
 
 ![Screenshot_1](./Practice_01/Screenshot_1.png)
 
-$$\varphi (А) = 00 \;\;\; \varphi (Б) = 01 \;\;\; \varphi (В) = 10 \;\;\; \varphi (Г) = 110 \;\;\; \varphi (Д) = 111$$
+$$
+\varphi (А) = 00 \;\;\; \varphi (Б) = 01 \;\;\; \varphi (В) = 10 \;\;\; \varphi (Г) = 110 \;\;\; \varphi (Д) = 111
+$$

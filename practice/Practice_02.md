@@ -6,7 +6,9 @@
 
 Выберем число $k, 1\le k < m$, так, чтобы величина
 
-$$\left| \sum_{i=1}^k p_i - \sum_{i=k+1}^m p_i \right|$$
+$$
+\left| \sum_{i=1}^k p_i - \sum_{i=k+1}^m p_i \right|
+$$
 
 была минимальной. Разобьём множество $\mathscr{A}=\{a_1, \dots , a_m\}$ на подмножества: $\mathscr{A} = \mathscr{A}_0 \cup \mathscr{A}_1$, где $\mathscr{A}_0 = \{a_1, \dots, a_k\}$, $\mathscr{A}_1 = \{a_{k+1}, \dots, a_m\}$.
 
@@ -14,7 +16,9 @@ $$\left| \sum_{i=1}^k p_i - \sum_{i=k+1}^m p_i \right|$$
 
 Если подмножество $\mathscr{A}_{i_1, \dots , i_t}$ состоит из единственного символа $a_j$, то для этого символа определяем кодирование $\varphi (a_j) = i_1 \dots i_t$. Если же в подмножестве $\mathscr{A}_{i_1, \dots , i_t} = \{a_j, \dots , a_s\}$ не менее двух символов, то выберем число $k, j\le k < s$, так, чтобы минимизировать величину
 
-$$\left| \sum_{i=j}^k p_i - \sum_{i=k+1}^s p_i \right|$$
+$$
+\left| \sum_{i=j}^k p_i - \sum_{i=k+1}^s p_i \right|
+$$
 
 и разобьём множество $\mathscr{A}_{i_1, \dots , i_t}$ на подмножества $\mathscr{A}_{i_1, \dots , i_t,0} = \{a_j, \dots a_k\}$ и $\mathscr{A}_{i_1, \dots , i_t,1} = \{a_{k+1}, \dots , a_s\}$.
 
@@ -24,4 +28,6 @@ $$\left| \sum_{i=j}^k p_i - \sum_{i=k+1}^s p_i \right|$$
 
 ![Screenshot_1](./Practice_02/Screenshot_1.png)
 
-$$\varphi (А) = 00 \;\;\; \varphi (Б) = 01 \;\;\; \varphi (В) = 10 \;\;\; \varphi (Г) = 110 \;\;\; \varphi (Д) = 111$$
+$$
+\varphi (А) = 00 \;\;\; \varphi (Б) = 01 \;\;\; \varphi (В) = 10 \;\;\; \varphi (Г) = 110 \;\;\; \varphi (Д) = 111
+$$
